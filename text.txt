@@ -1,0 +1,168 @@
+ 
+
+.programs {
+   background-color: rgb(24, 40, 109);
+   text-align: center;
+ }
+
+ .programs ul{
+   display: inline-flex;
+  list-style-type: none;
+ }
+ .programs ul li {
+   padding: 15px 30px;
+ }
+ .programs ul li a{
+  text-decoration: none;
+  color: white;
+ }
+ 
+ .programs ul li:hover {
+   position: absolute;
+   background-color: rgb(239, 239, 239);
+   border: 1px solid  rgb(185, 185, 185);
+   padding: 20px 5px;
+ }
+
+ .drop-menu{
+   display: none;
+ }
+
+ .programs ul li:hover .drop-menu {
+   align-items: center;
+   width: 200px;
+   display: block;
+   position: absolute;
+   background-color: rgb(239, 239, 239);
+   border: 1px solid  rgb(185, 185, 185);
+ }
+
+ .programs ul li:hover .drop-menu ul {
+   display: block;
+ }
+
+
+                           <div class="drop-menu">
+                                <ul>
+                                    <li> <a href="#">Partial Care</a></li>
+                                    <li> <a href="#">Intensive Out Patient Program</a></li>
+                                    <li> <a href="#">Evening IOP</a></li>
+                                    <li> <a href="#">Out patient Treatment</a></li>
+                                    <li> <a href="#">Drug Addiction Treatment</a></li>
+                                    <li> <a href="#">Alcoholism Treatment</a></li>
+                                    <li> <a href="#">Medication Assistant Treatment</a></li>
+                                    <li> <a href="#">Co-Occuring Disorder</a></li>
+                                    <li> <a href="#">Dual Diagnosis Treatment</a></li>
+                                </ul>
+                            </div>
+body{
+   margin: 0px;
+   padding: 0px;
+ }
+ #header {
+width: 100%;
+cursor: pointer;
+ }
+
+ #header .learn {
+    text-align: center;
+    background-color:rgb(169, 24, 24);
+    color: white;
+    padding: 5px 0;
+    line-height: 20px;
+    font-size: 18px;
+ }
+
+ #header .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+ }
+ 
+ #header .container div img {
+    padding-top: 10px;
+    padding-left: 10px;
+ }
+
+ #header .container2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 90%;
+ }
+
+ #header .container2 .customer-care {
+    display: flex;
+    flex-direction: row;
+ }
+
+ #header .container2 .customer-care div {
+   display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    transition: 0.5s ease;
+ }
+ 
+ #header .container2 .customer-care div .div1 {
+   padding: 40px 50px 5px 0;
+}
+ 
+ #header .container2 .customer-care div span {
+     padding-bottom: 50px;
+     padding-left: 5px;
+}
+ 
+ #header .container2 .customer-care div:hover {
+   background-color: rgb(185, 185, 185);
+ }
+ 
+ #header .container2 .customer-care div a i {
+   font-size: 55px;
+   color:rgb(169, 24, 24);
+   padding: 20px 0px;
+ }
+
+ #header .container2 .programs {
+    background-color: rgb(24, 40, 109);
+    justify-content: space-between;
+ }
+ 
+ #header .container2 .programs ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 15px 30px;
+ }
+
+ 
+ #header .container2 .programs ul li a {
+    text-decoration: none;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 15px 30px;
+    color: white;
+ }
+ .programs ul .active:hover {
+   position: absolute;
+   background-color: rgb(239, 239, 239);
+   border: 1px solid  rgb(185, 185, 185);
+   padding: 20px 5px;
+ }
+ .drop-menu {
+  display: none;
+ }
+
+ .programs ul .active:hover .drop-menu {
+   display:block;
+   position: absolute;
+   background-color: rgb(239, 239, 239);
+   border: 1px solid  rgb(185, 185, 185);
+   padding: 20px 5px;
+ }
+ .programs ul .active:hover .drop-menu ul li {
+  display: block;
+  background-color: rgb(185, 185, 185);
+   border: 1px solid  rgb(239, 239, 239);
+
+ }
